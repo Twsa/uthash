@@ -1,7 +1,8 @@
-b 43
+b 154
 r
+set print pretty off
 define plist
-	set $x=3
+	set $x=48
 	while $x--
 		p *head
 		set head=(struct gree_ctrls *)head->hh->next
